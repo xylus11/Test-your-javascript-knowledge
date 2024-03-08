@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+svg{
+    font-size: 35px;
+    color:white;
+   
+}
+.runner{
+    transition: all 0.5s linear;
+    animation:runner 0.7s;
+}
+@keyframes runner{
+    0%{
+        font-size: 35px;
+    }
+    65%{
+        font-size: 43px;
+
+    }
+    100%{
+      font-size: 35px;
+    }
+}
