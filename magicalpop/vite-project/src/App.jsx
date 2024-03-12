@@ -1,11 +1,11 @@
-import Magicpop from './Magicpop/Magicpop'
+import Magical from './magicalpop/magical'
 import './App.css'
 
 function App() {
 
   return (
     <>
-     <Magicpop/>
+     <Magical/>
     </>
   )
 }
