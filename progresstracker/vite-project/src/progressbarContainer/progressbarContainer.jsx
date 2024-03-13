@@ -48,7 +48,7 @@ data:75
             type="number"
             style={inputStyle}
             value={status.ui}
-            max="100"
+           
             ref={uiInput}
             onChange={(e) => 
              setStatus({...status, ui: e.target.value})
